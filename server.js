@@ -6,7 +6,7 @@ import axios from 'axios';
 
 dotenv.config();
 
-// Configuración de OpenAI
+// Configuración de OpenAII
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
