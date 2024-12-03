@@ -11,6 +11,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
+
 // Configuración del servidor
 const app = express();
 app.use(bodyParser.json());
